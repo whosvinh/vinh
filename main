@@ -1,0 +1,13 @@
+name = "";
+age = 0;
+months = 0;
+days = 0;
+
+
+name = input("What is your name?: ")
+age = int(input("What is your age?: "))
+
+months = (age*12)
+days = (months*31)
+
+print(name , "is" , age , "years or" , months, "months or", days, "days.")
